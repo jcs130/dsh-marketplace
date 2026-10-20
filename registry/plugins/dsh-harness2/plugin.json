@@ -29,9 +29,9 @@
     ]
   },
   "install": {
-    "target": "git",
-    "spec": "github:jcs130/dsh-harness2#811c598215f2ea955e63389898e13b06ca2289b2",
-    "command": "dsh plugin --profile {profile} add github:jcs130/dsh-harness2#811c598215f2ea955e63389898e13b06ca2289b2"
+    "target": "npm",
+    "spec": "@jcs130/dsh-harness2",
+    "command": "dsh plugin --profile {profile} add @jcs130/dsh-harness2@0.1.0-rc.1"
   },
   "verified": false,
   "repository": "https://github.com/jcs130/dsh-harness2",

@@ -1,6 +1,6 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-10-20T16:23:05.254Z",
+  "generatedAt": "2026-10-20T16:48:53.891Z",
   "count": 8,
   "plugins": [
     {
@@ -73,9 +73,9 @@
         ]
       },
       "install": {
-        "target": "git",
-        "spec": "github:jcs130/dsh-harness2#811c598215f2ea955e63389898e13b06ca2289b2",
-        "command": "dsh plugin --profile {profile} add github:jcs130/dsh-harness2#811c598215f2ea955e63389898e13b06ca2289b2"
+        "target": "npm",
+        "spec": "@jcs130/dsh-harness2",
+        "command": "dsh plugin --profile {profile} add @jcs130/dsh-harness2@0.1.0-rc.1"
       },
       "verified": false,
       "repository": "https://github.com/jcs130/dsh-harness2",

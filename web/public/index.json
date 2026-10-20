@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-08-15T06:44:44.646Z",
-  "count": 7,
+  "generatedAt": "2026-10-20T14:31:35.887Z",
+  "count": 8,
   "plugins": [
     {
       "id": "deepseek-harness-for-codex",
@@ -80,6 +80,47 @@
       ],
       "repository": "https://github.com/deepseek-harness/dsh-mcp-client",
       "docs": "https://github.com/deepseek-harness/deepseek-harness"
+    },
+    {
+      "id": "dsh-minecraft-agent",
+      "name": "Minecraft Agent",
+      "version": "0.3.0-rc.8",
+      "description": "A Minecraft Java Agent body for DSH Web and Desktop, with same-connection visualization, navigation, inventory, game memory and an optional isolated-experiment dashboard. Installation starts no game connection or model call.",
+      "descriptionZh": "DSH Web / Desktop 的我的世界 Agent：同一身体的游戏画面、导航、背包、游戏记忆与可选独立实验室。主维护 Java1.21.1，安装本身不连接游戏或启动模型。",
+      "author": {
+        "name": "jcs130",
+        "url": "https://github.com/jcs130"
+      },
+      "license": "MIT",
+      "category": "integration",
+      "tags": [
+        "minecraft",
+        "我的世界",
+        "agent",
+        "mineflayer",
+        "desktop",
+        "harness2",
+        "experiments",
+        "visualization",
+        "game-memory"
+      ],
+      "compatibility": {
+        "dsh": "^0.2.0-rc.2 || ^0.2.1-rc.2",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ]
+      },
+      "install": {
+        "target": "git",
+        "spec": "github:jcs130/dsh-minecraft-agent#v0.3.0-rc.8",
+        "command": "dsh plugin --profile {profile} add github:jcs130/dsh-minecraft-agent#v0.3.0-rc.8"
+      },
+      "verified": false,
+      "repository": "https://github.com/jcs130/dsh-minecraft-agent",
+      "docs": "https://github.com/jcs130/dsh-minecraft-agent/blob/main/docs/desktop.md",
+      "deprecated": false
     },
     {
       "id": "dsh-plugin-cc",

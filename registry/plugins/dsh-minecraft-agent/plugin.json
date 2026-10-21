@@ -1,18 +1,38 @@
 {
   "id": "dsh-minecraft-agent",
   "name": "Minecraft Agent",
-  "version": "0.3.0-rc.8",
-  "description": "A Minecraft Java Agent body for DSH Web and Desktop, with same-connection visualization, navigation, inventory, game memory and an optional isolated-experiment dashboard. Installation starts no game connection or model call.",
-  "descriptionZh": "DSH Web / Desktop 的我的世界 Agent：同一身体的游戏画面、导航、背包、游戏记忆与可选独立实验室。主维护 Java1.21.1，安装本身不连接游戏或启动模型。",
-  "author": { "name": "jcs130", "url": "https://github.com/jcs130" },
+  "version": "0.3.0-rc.12",
+  "description": "A Minecraft Java Agent body for DSH with shared visualization, navigation, inventory, game memory and an optional isolated-experiment dashboard. Supports stock DSH 0.2.1-rc.2 without a host patch; installation starts no game or model.",
+  "descriptionZh": "DSH 我的世界 Agent：共享画面、导航、背包、游戏记忆与可选独立实验室。直接兼容原始官方 DSH0.2.1-rc.2，无需修补宿主；主维护 Java1.21.1，安装不启动游戏或模型。",
+  "author": {
+    "name": "jcs130",
+    "url": "https://github.com/jcs130"
+  },
   "license": "MIT",
   "category": "integration",
-  "tags": ["minecraft", "我的世界", "agent", "mineflayer", "desktop", "harness2", "experiments", "visualization", "game-memory"],
-  "compatibility": { "dsh": "^0.2.0-rc.2 || ^0.2.1-rc.2", "platforms": ["linux", "macos", "windows"] },
+  "tags": [
+    "minecraft",
+    "我的世界",
+    "agent",
+    "mineflayer",
+    "desktop",
+    "harness2",
+    "experiments",
+    "visualization",
+    "game-memory"
+  ],
+  "compatibility": {
+    "dsh": "^0.2.0-rc.2 || ^0.2.1-rc.2",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ]
+  },
   "install": {
-    "target": "git",
-    "spec": "github:jcs130/dsh-minecraft-agent#v0.3.0-rc.8",
-    "command": "dsh plugin --profile {profile} add github:jcs130/dsh-minecraft-agent#v0.3.0-rc.8"
+    "target": "npm",
+    "spec": "@jcs130/dsh-minecraft-agent",
+    "command": "dsh plugin --profile {profile} add @jcs130/dsh-minecraft-agent@0.3.0-rc.12"
   },
   "verified": false,
   "repository": "https://github.com/jcs130/dsh-minecraft-agent",

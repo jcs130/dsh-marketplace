@@ -1,6 +1,6 @@
 {
   "schema": "https://raw.githubusercontent.com/dsh-marketplace/registry/main/schema/plugin.schema.json",
-  "generatedAt": "2026-10-25T08:18:53.924Z",
+  "generatedAt": "2026-10-25T15:48:07.781Z",
   "count": 8,
   "plugins": [
     {
@@ -84,9 +84,9 @@
     {
       "id": "dsh-minecraft-agent",
       "name": "Minecraft Agent",
-      "version": "0.3.0-rc.21",
-      "description": "Minecraft Java Agent for DSH with local MineDojo knowledge indexes, survival guides, editable personas, configurable viewer, server notebooks and native reasoning/tools. Explicit local data preparation; installation starts no game or model.",
-      "descriptionZh": "DSH 我的世界 Agent：MineDojo 本地知识库与生存攻略，角色、画面和服务器笔记可配置，游戏旁展示原生推理和工具回执；支持配置目标恢复与独立新会话。资料显式准备，矿透默认关闭；安装不启动游戏或模型。",
+      "version": "0.3.0-rc.22",
+      "description": "Minecraft Java Agent for DSH with automatic compatible viewer materials, native reasoning/tools, editable personas, server notebooks, survival guides and optional local MineDojo indexes. Installation starts no game or model.",
+      "descriptionZh": "DSH 我的世界 Agent：缺少精确预制材质时自动显示兼容画面，游戏旁展示原生推理和工具回执；可配置人格、服务器笔记、特效、公屏与 MineDojo 知识库。矿透默认关闭，安装不启动游戏或模型。",
       "author": {
         "name": "jcs130",
         "url": "https://github.com/jcs130"
@@ -125,7 +125,7 @@
       "install": {
         "target": "npm",
         "spec": "@jcs130/dsh-minecraft-agent",
-        "command": "dsh plugin --profile {profile} add @jcs130/dsh-minecraft-agent@0.3.0-rc.21 --registry=https://registry.npmjs.org"
+        "command": "dsh plugin --profile {profile} add @jcs130/dsh-minecraft-agent@0.3.0-rc.22 --registry=https://registry.npmjs.org"
       },
       "verified": false,
       "repository": "https://github.com/jcs130/dsh-minecraft-agent",
